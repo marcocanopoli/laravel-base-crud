@@ -37,15 +37,6 @@
                             @method('DELETE')
                             <input type="submit" value="DELETE" class="btn btn-warning">
                         </form>
-                        {{-- <form 
-                            action="{{ route('beers.destroy', $item->id) }}" 
-                            method="POST"
-                            onSubmit = "return confirm('Sei sicuro di voler cancellare definitivamente {{ $item->brand }} {{ $item->name }}?')"
-                            >
-                            @csrf
-                            @method('DELETE')
-                            <input type="submit" class="btn btn-danger" value="DELETE">
-                        </form> --}}
                     </td>
                 </tr>
             @endforeach
