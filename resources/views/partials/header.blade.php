@@ -13,7 +13,10 @@
               </li>
               <li class="nav-item {{ Route::currentRouteName() == 'comics.index' ? 'active' : '' }}">
                   <a class="nav-link" href="{{ route("comics.index") }}">Comics</a>
-                </l           
+              </li>           
+              <li class="nav-item {{ Route::currentRouteName() == 'comics.create' ? 'active' : '' }}">
+                  <a class="nav-link" href="{{ route("comics.create") }}">Add new comic</a>
+              </li>           
             </ul>
           </div>
         </div>
